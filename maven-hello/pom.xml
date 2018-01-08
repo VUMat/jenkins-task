@@ -14,5 +14,17 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>artifactory.epam.com-releases</name>
+        <url>https://artifactory.epam.com/artifactory/MIN-MAC-LAB</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>artifactory.epam.com-snapshots</name>
+        <url>https://artifactory.epam.com/artifactory/MIN-MAC-LAB</url>
+    </snapshotRepository>
+</distributionManagement>
   </dependencies>
 </project>
